@@ -7,7 +7,8 @@ Given an author in the dataset this project uses Scikit-learn text feature extra
 2. Create the csr_matrix of similarity values
 > `python3 analyzeJSON.py`
 3. Output the list of the most similar authors
-> `python3 findSimilar.py [author's name] [# of desired similar authors]`
+> `python3 findSimilar.py [author's name] [# of desired similar authors]` \
+> e.g. `python3 findSimilar.py 'Yoshua Bengio' 5`
 
 
 ### Collaborators
