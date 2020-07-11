@@ -1,7 +1,6 @@
 import json
 from operator import itemgetter  
 
-
 with open('arxivData.json') as file:
     data = json.load(file);
 
