@@ -4,7 +4,7 @@ sampleFile = 'sample.json'
 outputFile = 'similarity'
 
 if sys.argv < 3:
-    print('Not enough args')
+    print('Not enough args - [author] [# of desired similar authors]')
     sys.exit
 
 input = sys.argv[1]   # 'Yoshua Bengio' - most published author
