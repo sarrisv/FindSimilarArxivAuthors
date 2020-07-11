@@ -2,7 +2,7 @@ import json, numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 sampleFile = 'sample.json'
-outputFile = 'similarity.np'
+outputFile = 'similarity'
 
 with open(sampleFile,'rb') as file:
     authors = json.load(file)
