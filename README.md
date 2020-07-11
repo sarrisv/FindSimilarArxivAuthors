@@ -10,6 +10,8 @@ Given an author in the dataset this project uses Scikit-learn text feature extra
 > `python3 findSimilar.py [author's name] [# of desired similar authors]` \
 > e.g. `python3 findSimilar.py 'Yoshua Bengio' 5`
 
+### Pre-Processed Similarity File
+* [link](https://drive.google.com/file/d/1slgjSGBKQmg3D6ODntHztDHcJ5yS-KB6/view?usp=sharing)
 
 ### Collaborators
 * [hashFactory](https://github.com/hashFactory)
