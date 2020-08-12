@@ -10,15 +10,6 @@ if sys.argv < 3:
 input = sys.argv[1]   # 'Yoshua Bengio' - most published author
 numberOfSimilarAuthors = int(sys.argv[2])
 
-def max(similarity, n):
-    temp = similarity
-    maxVals = []
-    for i in range(0, n):
-        j = np.nanargmax(temp)
-        maxVals.append(j)
-        temp[j] = np.nan
-    return maxVals
-
 with open(sampleFile,'rb') as file:
     dict = json.load(file)
 
@@ -34,3 +25,12 @@ maxVals = max(similarities[input_idx], numberOfSimilarAuthors)
 
 for i in maxVals:
     print(authors[i])
+
+def max(similarity, n):
+    temp = similarity
+    maxVals = []
+    for i in range(0, n):
+        j = np.nanargmax(temp)
+        maxVals.append(j)
+        temp[j] = np.nan
+    return maxVals
