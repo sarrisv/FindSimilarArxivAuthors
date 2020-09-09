@@ -1,5 +1,5 @@
 # FindSimilarArxivAuthors
-Given an author in the dataset this project uses Scikit-learn text feature extraction to find the most similar authors based on the abstracts of their published papers
+Given an author in the dataset this project uses Sklearn text feature extraction to find the most similar authors based on the abstracts of their published papers
 
 ## Process
 1. Get the data formatted
